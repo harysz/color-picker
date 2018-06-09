@@ -1,0 +1,85 @@
+.colorNav {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.color{
+  height: 150px;
+  padding-top: 90px;
+  transition: .5s;
+  overflow: hidden;
+  margin: 0 5px;
+}
+
+.color:first-child, .color:last-child {
+  width: 19%;
+
+}
+.color:nth-child(2) {
+  width: 15%;
+
+}
+.color:nth-child(2):before{
+  content: "C";
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50%;
+}.color:nth-child(3):before{
+  content: "O";
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50%;
+}.color:nth-child(4):before{
+  content: "L";
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50%;
+}.color:nth-child(5):before{
+  content: "O";
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50%;
+}
+.color:nth-child(6):before{
+  content: "R";
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50%;
+}
+
+.color:nth-child(6) {
+  width: 15%;
+
+}
+
+.color:nth-child(3){
+  width: 10%;
+}
+.color:nth-child(5) {
+  width: 10%;
+}
+
+.color:nth-child(4) {
+  width: 5%;
+}
+
+.activeColor{
+  width: 40%!important;
+  .color:before{
+    content: none;
+  }
+}
+.activeText{
+  display: block!important;
+  color: $color-white;
+  font-family: cursive;
+  width: 90%;
+  text-align: center;
+}

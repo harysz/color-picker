@@ -1,0 +1,51 @@
+header {
+  font-family: Herculanum, sans-serif;
+  user-select: none;
+  color: $color-white;
+  font-size: 32px;
+  text-transform: uppercase;
+  a {
+    width: 50%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    transition: .5s;
+  }
+
+}
+
+.navBar {
+  padding-top: 20px;
+  display: flex;
+  height: 20%;
+  background: $color-black;
+  justify-content: space-evenly;
+}
+
+.halfNav {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.active {
+  border-color: #4717f6;
+  box-shadow: 1px 1px 4px 4px $color-blue;
+}
+
+.home {
+  color: $color-red;
+}
+
+.quiz {
+  color: $color-violet;
+}
+
+.login {
+  color: $color-blue;
+}
+
+.stats {
+  color: $color-green;
+}
+
