@@ -7,7 +7,7 @@ const colors = [
     {
         title: 'orange',
         description: 'Orange combines the energy of red an the happines of yellow. It is associated with joy, sunshine, and tropics',
-        theColor: {R: 255, G: 165, B: 0}
+        theColor: {R: 255, G: 140, B: 0}
     },
     {
         title: 'yellow',
